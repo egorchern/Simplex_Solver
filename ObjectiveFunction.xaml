@@ -1,0 +1,15 @@
+﻿<Window x:Class="SimplexMethod.ObjectiveFunction"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimplexMethod"
+        mc:Ignorable="d"
+        Title="ObjectiveFunction" Height="225.623" Width="437.257" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="18,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Height="59" Width="398"><Run Text="Enter the objec"/><Run Text="tive function in the format:"/><LineBreak/><Run Text="P = 3x + 7"/><Run Text=".67"/><Run Text="y"/></TextBlock>
+        <TextBox x:Name="objectiveFunction_txt" HorizontalAlignment="Left" Height="34" Margin="15,85,0,0" TextWrapping="Wrap" Text="P = " VerticalAlignment="Top" Width="337" FontSize="20" FontWeight="Bold"/>
+        <Button x:Name="submit_btn" Content="Submit" HorizontalAlignment="Left" Margin="137,130,0,0" VerticalAlignment="Top" Width="161" Height="54" FontSize="20" FontWeight="Bold" RenderTransformOrigin="0.448,0.37"/>
+
+    </Grid>
+</Window>
